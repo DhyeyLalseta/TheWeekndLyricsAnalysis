@@ -19,6 +19,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "postbuild": "rm -rf ../server/build && mv build ../server/build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
