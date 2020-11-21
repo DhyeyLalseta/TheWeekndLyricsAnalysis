@@ -1,6 +1,8 @@
 the_weeknd.json
 secrets.py
-models/
+web_app/server/ml/*
+!web_app/server/ml/__init__.py
+!web_app/server/ml/model.py
 
 # Created by https://www.toptal.com/developers/gitignore/api/react,node,python,flask,vscode
 # Edit at https://www.toptal.com/developers/gitignore?templates=react,node,python,flask,vscode
