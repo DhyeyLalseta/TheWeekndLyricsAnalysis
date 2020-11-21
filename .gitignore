@@ -3,6 +3,8 @@ secrets.py
 web_app/server/ml/*
 !web_app/server/ml/__init__.py
 !web_app/server/ml/model.py
+settings.json
+
 
 # Created by https://www.toptal.com/developers/gitignore/api/react,node,python,flask,vscode
 # Edit at https://www.toptal.com/developers/gitignore?templates=react,node,python,flask,vscode
