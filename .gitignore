@@ -6,6 +6,16 @@ web_app/server/ml/*
 settings.json
 
 
+node_modules/
+
+static/
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+
 # Created by https://www.toptal.com/developers/gitignore/api/react,node,python,flask,vscode
 # Edit at https://www.toptal.com/developers/gitignore?templates=react,node,python,flask,vscode
 ### Flask ###
@@ -325,8 +335,6 @@ dist
 .DS_*
 **/*.backup.*
 **/*.back.*
-
-node_modules
 
 *.sublime*
 

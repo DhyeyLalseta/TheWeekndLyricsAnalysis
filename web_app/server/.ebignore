@@ -1,0 +1,8 @@
+*
+
+!ml/
+!static/
+!application.py
+!requirements.txt
+
+venv

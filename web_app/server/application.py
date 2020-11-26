@@ -1,19 +1,19 @@
 from flask import Flask, request
 from ml.model import TextGenerationModel
 
-app = Flask(__name__, static_folder="build", static_url_path="/")
+application = Flask(__name__, static_url_path='/')
 trilogy_KS_model = TextGenerationModel(
     "./ml/trilogy_model/", "./ml/trilogy_tokenizer.pickle"
 )
 post_KS_model = TextGenerationModel("./ml/modern_model", "./ml/modern_tokenizer.pickle")
 
 
-@app.route("/")
+@application.route("/")
 def index():
-    return app.send_static_file("index.html")
+    return application.send_static_file("index.html")
 
 
-@app.route("/api/generate", methods=["POST"])
+@application.route("/api/generate", methods=["POST"])
 def generate_text():
     request_body = request.get_json()
     response = {}
@@ -34,3 +34,6 @@ def generate_text():
     except Exception as e:
         return str(e), 500
     return response
+
+if __name__=="__main__":
+    application.run()
