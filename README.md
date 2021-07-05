@@ -3,6 +3,8 @@ hey 👋🏽
 
 P.S. I'm actually writing an article on medium about this project, but I'm updating the README here while I procrastinate the article.
 
+AND there ARE photos below in case you don't want to read my entire essay.
+
 In this project I leveraged various data science and web development technologies making it almost "end to end", rendering it one of my personal favourite projects I've made. 
 
 To start off, The Weeknd is one of my favourite performing artists (hopefully one day I get to go to a concert 😞) and one thing I always get into debates with my other Weeknd fanboy friends is how his music has changed from his earlier recordings to his more modern releases. So I decided it would be a perfect opportunity to try out some data science technologies and investigate that shift, and then deploy some of my findings for more people to play around with. 
