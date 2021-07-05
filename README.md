@@ -3,7 +3,7 @@ hey 👋🏽
 
 P.S. I'm actually writing an article on medium about this project, but I'm updating the README here while I procrastinate the article.
 
-AND there ARE photos below in case you don't want to read my entire essay.
+🚨 there ARE photos below in case you don't want to read my entire essay. 🚨
 
 In this project I leveraged various data science and web development technologies making it almost "end to end", rendering it one of my personal favourite projects I've made. 
 
